@@ -12,8 +12,11 @@ body {
 
 /* Add styles here! */
 /* Took me 1 hour and 11 minutes to finish and I found out I cloned the main instead of forking before cloning :cry: */
+/*This is submitted before I watch the solution video */
 
-/* LAYOUT */
+
+/* MAIN SELECTORS */
+
 header {
     border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
@@ -22,6 +25,8 @@ main {
     background-color: hsl(0deg, 0%, 60%);
     padding: 128px 0px;
 }
+
+/* WRAPPER */
 
 .max-width-wrapper {
     max-width: 800px;
