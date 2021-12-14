@@ -1,12 +1,74 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
 
 /* Add styles here! */
+/* Took me 1 hour and 11 minutes to finish and I found out I cloned the main instead of forking before cloning :cry: */
+
+/* LAYOUT */
+header {
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+    background-color: hsl(0deg, 0%, 60%);
+    padding: 128px 0px;
+}
+
+.max-width-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* INTRO */
+
+.intro-chunk {
+    background-color: hsl(0deg, 0%, 100%);
+    padding: 64px 24px;
+    max-width: 500px;
+}
+
+.intro-chunk .title {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.intro-chunk p {
+    font-size: 1.5rem;
+}
+
+.intro-chunk strong {
+    color: hsl(160deg, 100%, 30%);
+}
+
+/* CARD */
+
+.card {
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+    background-color: hsl(0deg, 0%, 100%);
+    padding: 32px;
+    padding-top: 8px;
+}
+
+.indented-heading {
+    border-bottom: 8px solid hsl(45deg, 100%, 40%);
+    background-color: hsl(45deg, 100%, 50%);
+    max-width: 500px;
+    margin: 0px -48px;
+    margin-right: 0px;
+    padding: 24px 32px;
+    padding-left: 48px;
+}
+
+.card p {
+    font-size: 1.25rem;
+}
